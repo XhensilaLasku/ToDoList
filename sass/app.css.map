@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"app.css"}
+{"version":3,"sourceRoot":"","sources":["variables/_typography.scss","components/_toDo.scss","variables/_colors.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI;EACA,OCSmB;;ADRnB;EACI;EACA;EACA;;;AAIJ;EACI;;AAGJ;EACI;EACA","file":"app.css"}

@@ -1,1 +1,21 @@
-/*# sourceMappingURL=app.css.map */
+body {
+  font-family: "Josefin Sans";
+}
+
+body {
+  background-color: black;
+  color: hsl(0deg, 0%, 98%);
+}
+body .container-fluid {
+  position: relative;
+  background-image: url(images\b g-mobile-light.jpg);
+  z-index: 2;
+}
+
+.forma #form {
+  text-align: center;
+}
+.forma #inputText {
+  width: 400px;
+  height: 50px;
+}/*# sourceMappingURL=app.css.map */
