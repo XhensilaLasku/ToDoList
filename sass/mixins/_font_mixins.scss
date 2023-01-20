@@ -1,0 +1,46 @@
+@mixin set-headline-style($headTag: h1, $brightness:dark, $fontSize: null) {
+    font-family: "Josefin Sans";
+    color: $dark-mode-light-gray;
+    font-weight: normal;
+  
+    // @if $headTag == h1 {
+    //   font-size: $unit-35;
+    // } @else if $headTag == h3 {
+    //   font-size: $unit-26;
+    // } @else if $headTag == h4 {
+    //   font-size: $unit-18;
+    // } @else if $headTag == h5 {
+    //   font-family: "Josefin Sans";
+    //   font-size: $unit-18;
+    // } @else if $headTag == h6 {
+    //   font-family: "Josefin Sans";
+    //   font-size: $unit-16;
+    // }
+    
+    // @if $brightness == light {
+    //   color: $base_color;
+    // }
+    // @if $fontSize != null {
+    //   font-size: $fontSize;
+    // }
+  }
+  
+  h1 {
+    @include set-headline-style(h1);
+  }
+//   h2 {
+//     @include set-headline-style();
+//   }
+//   h3 {
+//     @include set-headline-style(h3);
+//   }
+//   h4 {
+//     @include set-headline-style(h4);
+//   }
+//   h5 {
+//     @include set-headline-style(h5);
+//   }
+//   h6 {
+//     @include set-headline-style(h6);
+//   }
+  
