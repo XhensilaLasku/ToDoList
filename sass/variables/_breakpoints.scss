@@ -1,0 +1,9 @@
+$breakpoints: (
+  'xs'   : (max-width: 360px),
+  'smx'  : (max-width: 600px),
+  'sm'   : (max-width: 767px),
+  'ms'   : (max-width: 900px),
+  'mds'  : (max-width: 1050px),
+  'md'   : (max-width: 1200px),
+  'mdlg' : (max-width: 1400px),
+  'lg'   : (max-width: 1650px))
