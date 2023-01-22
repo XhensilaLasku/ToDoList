@@ -9,20 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
     <title>To Do List </title>
 </head>
 <body>
-  <div class="container-fluid container-sm">
+  <!-- <div class="container-fluid ">
     <form class="forma">
       <div class="form-group" id="form">
         <div class="form__container">
           <h1 class="h1">TO DO</h1>
-          <input type="text" class="form-control " id="inputText" aria-describedby="emailHelp" placeholder="◯ add to your todo list">
+          <input type="text" class="form-control " id="inputText" aria-describedby="emailHelp" placeholder="◯ Create a new ToDo">
         </div>
       </div>
     </form>
+  </div> -->
+  <div class="container">
+    <header>
+      <h1 class="container__h1">
+        TO DO
+      </h1>
+      <div class="container__new-todo">
+        <form class="container__todoform" id="todoform">
+          <input type="text" class="container__newtodo" id="newtodo" name="newtodo" placeholder="◯ Create a new ToDo"/>
+        </form>
+        
+      </div>
+    </header>
+    <div class="container__todo-list" >
+      <!-- <div class="container__todo" id="0">
+        <i class="bi bi-check-circle"></i> -->
+        <!-- <i class="bi bi-circle"></i> -->
+        <!-- <p class="container__checked"></p> -->
+      </div>
+    </div>
   </div>
-  
   <script src=".\libs\bootstrap\js\bootstrap.bundle.min.js"></script> 
   <script src="main.js"></script> 
 </body>

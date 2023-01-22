@@ -5,10 +5,10 @@ html, body {
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: $dark-mode-very-dark-gray-blue-gray-blue;
     color: $dark-mode-light-gray;
 }
-.container-fluid{
+.container{
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
