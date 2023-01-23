@@ -8,54 +8,6 @@ h1 {
   font-weight: normal;
 }
 
-.container {
-  position: relative;
-}
-.container__new-todo {
-  text-align: center;
-}
-.container__h1 {
-  margin-top: 0;
-  margin-left: 37%;
-  padding-top: 200px;
-}
-.container__newtodo {
-  width: 500px;
-  height: 50px;
-  background-color: hsl(237deg, 14%, 26%);
-  border: none;
-  color: hsl(0deg, 0%, 98%);
-  font-size: 16px;
-  border-radius: 5px;
-}
-.container__button {
-  background-color: transparent;
-  border: none;
-  color: hsl(0deg, 0%, 98%);
-  font-size: 26px;
-  position: absolute;
-  left: 61%;
-  top: 200px;
-}
-@media (max-width: 600px) {
-  .container__newtodo {
-    width: 350px;
-  }
-}
-@media (max-width: 600px) {
-  .container__h1 {
-    margin-left: 40px;
-    padding-top: 60px;
-  }
-}
-@media (max-width: 600px) {
-  .container__button {
-    position: absolute;
-    left: 82%;
-    top: 60px;
-  }
-}
-
 html, body {
   height: 100%;
   width: 100%;
@@ -66,6 +18,15 @@ html, body {
 body {
   background-color: hsl(237deg, 14%, 26%);
   color: hsl(0deg, 0%, 98%);
+  background-image: url(../../images/bg-desktop-dark.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 600px) {
+  body {
+    background-size: 100%;
+    background-image: url(../../images/bg-mobile-dark.jpg);
+  }
 }
 
 .container {
@@ -73,13 +34,6 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url(../../images/bg-desktop-dark.jpg);
-}
-@media (max-width: 600px) {
-  .container {
-    background-size: 100%;
-    background-image: url(../../images/bg-mobile-dark.jpg);
-  }
 }
 
 .dark-mode {

@@ -13,30 +13,41 @@
     <title>To Do List </title>
 </head>
 <body>
-  <div class="container">
+  <!-- <div class="container">
     <header>
       <h1 class="container__h1">
         TO DO
       </h1>
-      <button class="btn container__button" onclick="myFunction()">
+      <button class="btn container__button" onkeypress="submitForm()">
         <i class="bi bi-brightness-high-fill"></i>
+        <i class="bi bi-moon-fill"></i>
       </button>
       <div class="container__new-todo">
         <form class="container__todoform" id="todoform">
-          <input type="text" class="container__newtodo" id="newtodo" name="newtodo" placeholder="◯ Create a new ToDo"/>
+          <input type="text" class="container__newtodo" id="newtodo" name="newtodo" onkeypress="getVal()" placeholder="    ◯  Create a new ToDo"/>
         </form>
         
       </div>
     </header>
-    <div class="container__todo-list" >
-      <!-- <div class="container__todo" id="0">
-        <i class="bi bi-check-circle"></i> -->
-        <!-- <i class="bi bi-circle"></i> -->
-        <!-- <p class="container__checked"></p> -->
+    <div class="container__todo-list">
+      <div class="container__todo" id="0">
+        <i class="bi bi-check-circle"></i> 
+         <i class="bi bi-circle"></i> 
+        <span>shdjhfdhgsfgkfgkd</span>
       </div>
+      
     </div>
+  </div> -->
+  <div>
+    <h1>To Do</h1>
+
+    <form id="addForm">
+      <input id='todoField' type="text" autocomplete='off'>
+    </form>
+    <ul id='todos'></ul>
   </div>
+  
   <script src=".\libs\bootstrap\js\bootstrap.bundle.min.js"></script> 
-  <script src="main.js"></script> 
+  <script src="./js/main.js"></script> 
 </body>
 </html>
