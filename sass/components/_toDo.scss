@@ -50,3 +50,12 @@
 //         }  
 //     }
 // }
+.container{
+    position: relative;
+    text-align: center;
+        &__h1{
+        margin-top: 0;
+        margin-left: 37%;
+        padding-top: 200px;
+        }
+}

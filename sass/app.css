@@ -8,6 +8,16 @@ h1 {
   font-weight: normal;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+}
+.container__h1 {
+  margin-top: 0;
+  margin-left: 37%;
+  padding-top: 200px;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -27,13 +37,6 @@ body {
     background-size: 100%;
     background-image: url(../../images/bg-mobile-dark.jpg);
   }
-}
-
-.container {
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .dark-mode {

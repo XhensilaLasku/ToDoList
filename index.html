@@ -38,13 +38,16 @@
       
     </div>
   </div> -->
-  <div>
-    <h1>To Do</h1>
-
-    <form id="addForm">
-      <input id='todoField' type="text" autocomplete='off'>
+  <div class="container">
+    <head>
+      <h1 class="container__h1">To Do</h1>
+    </head>
+    <div class="container__new-todo">
+      <form id="addForm" class="container__addForm">
+      <input id='todoField' class="container__todoField" type="text" autocomplete='off' placeholder="    ◯  Create a new ToDo">
     </form>
-    <ul id='todos'></ul>
+    <ul id='todos' class="container__todos"></ul>
+  </div> 
   </div>
   
   <script src=".\libs\bootstrap\js\bootstrap.bundle.min.js"></script> 
