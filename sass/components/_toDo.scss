@@ -53,9 +53,26 @@
 .container{
     position: relative;
     text-align: center;
-        &__h1{
-        margin-top: 0;
-        margin-left: 37%;
-        padding-top: 200px;
-        }
+    &__h1{
+        padding-top: 50px;
+    }
+    &__todoField{
+        width: 500px;
+        height:50px;
+        color: $dark-mode-light-gray;
+        background-color: $light-mode-very-dark-gray-blue-gray-blue1;
+        border: none;
+        border-radius: 5px;
+    }
+    &__todos{
+        width: 467px;
+        background-color: $light-mode-very-dark-gray-blue-gray-blue1;
+        border-radius: 5px;
+        display: block;
+        justify-content: center;
+        margin: 16px auto;
+    }
+    &__listtodo{
+        height: 50px;
+    }
 }

@@ -8,3 +8,7 @@ $breakpoints: (
   'mdlg' : (max-width: 1400px),
   'lg'   : (max-width: 1650px)) !default;
 
+  // example
+  // @include media-breakpoint-up(sm) { ... }
+  // @include media-breakpoint-down(sm) { ... }
+  // @include media-breakpoint-only(sm) { ... }

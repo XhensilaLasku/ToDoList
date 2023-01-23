@@ -13,9 +13,26 @@ h1 {
   text-align: center;
 }
 .container__h1 {
-  margin-top: 0;
-  margin-left: 37%;
-  padding-top: 200px;
+  padding-top: 50px;
+}
+.container__todoField {
+  width: 500px;
+  height: 50px;
+  color: hsl(0deg, 0%, 98%);
+  background-color: hsl(237deg, 14%, 26%);
+  border: none;
+  border-radius: 5px;
+}
+.container__todos {
+  width: 467px;
+  background-color: hsl(237deg, 14%, 26%);
+  border-radius: 5px;
+  display: block;
+  justify-content: center;
+  margin: 16px auto;
+}
+.container__listtodo {
+  height: 50px;
 }
 
 html, body {

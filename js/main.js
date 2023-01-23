@@ -20,7 +20,7 @@ todoForm.addEventListener("submit", (e) => {
 })
 
 function createItem(x) {
-  const html = `<input type="radio">${x}`
+  const html = `<input class="container__listtodo" id="listtodo" type="radio">${x}`
   list.insertAdjacentHTML("beforeend", html)
   todoField.value = ""
   todoField.focus()
@@ -29,3 +29,5 @@ function createItem(x) {
 function deleteItem(elementToDelete) {
   elementToDelete.parentElement.remove()
 }
+
+const elements = document.querySelectorAll('#listtodo');
