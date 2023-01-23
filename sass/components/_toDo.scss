@@ -1,19 +1,47 @@
 .container{
+    position: relative;
     &__new-todo{
         text-align: center;
     }
     &__h1{
         margin-top: 0;
-        margin-left: 31.5%;
-        padding-top: 100px;
-        @include set-headline-style(h1);
+        margin-left: 37%;
+        padding-top: 200px;
     }
     &__newtodo{
         width: 500px;
         height: 50px;
-        background-color: $dark-mode-very-dark-gray-blue-gray-blue;
+        background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         border: none;
         color: $dark-mode-light-gray;
         font-size: $size-16;
+        border-radius: 5px;
+    }
+    &__button{
+        background-color: transparent;
+        border: none;
+        color: $dark-mode-light-gray;
+        font-size: 26px;
+        position: absolute;
+        left: 61%;
+        top: 200px;
+    }
+     @include breakpoint(smx) {
+        &__newtodo{
+            width: 350px;
+        }  
+    }
+    @include breakpoint(smx) {
+        &__h1{
+            margin-left: 40px;
+            padding-top: 60px;
+        }  
+    }
+    @include breakpoint(smx) {
+        &__button{
+            position: absolute;
+            left: 82%;
+            top: 60px; 
+        }  
     }
 }
