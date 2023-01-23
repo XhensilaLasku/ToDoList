@@ -5,7 +5,7 @@ html, body {
     padding: 0;
 }
 body{
-    background-color: $dark-mode-very-dark-gray-blue-gray-blue;
+    background-color: $light-mode-very-dark-gray-blue-gray-blue1;
     color: $dark-mode-light-gray;
 }
 .container{
@@ -20,3 +20,7 @@ body{
     }
     
 }
+.dark-mode {
+    background-color: $dark-mode-light-gray;
+    color: $light-mode-dark-blue;
+  }
