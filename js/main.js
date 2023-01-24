@@ -30,4 +30,16 @@ const addClass = (event) => {
 //  console.log(document.querySelectorAll('input[type="checkbox"]:checked').length);
 let html = (document.querySelectorAll('input[type="checkbox"]:not(:checked)').length + ' ' + 'items left');
 document.getElementById("container__count").innerHTML = html;
+
+// let get = document.querySelectorAll('input[type="checkbox"]:checked'); 
+// let get = document.querySelectorAll('.container__todolist'); 
+// get.forEach(element => {
+//  element.remove();
+// });
 }
+// const removeItem = (event) => {
+//   let get = document.querySelectorAll('.container__todolist'); 
+//   get.forEach(element => {
+//     element.remove();
+//   });
+// }
