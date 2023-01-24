@@ -24,29 +24,34 @@ h1 {
   border: none;
   border-radius: 5px;
 }
-@media (max-width: 600px) {
-  .container__todoField {
-    width: 325px;
-  }
+.container__todoField.before {
+  content: "/ccccccccccccc";
 }
 .container__todos {
   width: 467px;
   background-color: hsl(237deg, 14%, 26%);
   border-radius: 5px;
-}
-@media (max-width: 600px) {
-  .container__todos {
-    width: 364px;
-  }
+  padding: 0 0 0 10px;
 }
 .container__listtodo {
   height: 60px;
   border-bottom: solid 1px;
   border-color: hsl(236deg, 9%, 61%);
+  background-color: red;
 }
 .container__todolist {
   list-style: none;
   display: flex;
+}
+@media (max-width: 600px) {
+  .container__todoField {
+    width: 325px;
+  }
+}
+@media (max-width: 600px) {
+  .container__todos {
+    width: 317px;
+  }
 }
 .container label {
   padding-top: 25px;
