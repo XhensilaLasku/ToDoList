@@ -79,13 +79,25 @@ body {
   color: hsl(235deg, 21%, 11%);
 }
 
-@media (min-width: 360px) {
-  .container__new-todo {
-    width: 200px;
+@media (max-width: 360px) {
+  .container__todoField {
+    width: 300px;
+  }
+  .container__todos {
+    width: 264px;
+  }
+  .container__menu {
+    width: 300px;
   }
 }
 @media (max-width: 600px) {
-  .container__new-todo {
-    width: 300px;
+  .container__todoField {
+    width: 360px;
+  }
+  .container__todos {
+    width: 323px;
+  }
+  .container__menu {
+    width: 363px;
   }
 }/*# sourceMappingURL=app.css.map */

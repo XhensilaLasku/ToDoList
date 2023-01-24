@@ -1,14 +1,26 @@
 @include breakpoint(xs) {
     .container{
-        &__new-todo{
-          width: 200px;
+        &__todoField{
+          width: 300px;
+        }
+        &__todos{
+            width: 264px;
+        }
+        &__menu{
+            width: 300px;
         }
     }
 }
 @include breakpoint(smx) {
     .container{
-        &__new-todo{
-          width: 300px;
+        &__todoField{
+          width: 360px;
+        }
+        &__todos{
+            width: 323px;
+        }
+        &__menu{
+            width: 363px;
         }
     }
 }
