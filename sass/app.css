@@ -8,6 +8,12 @@ h1 {
   font-weight: normal;
 }
 
+button {
+  font-family: "Josefin Sans";
+  color: hsl(0deg, 0%, 98%);
+  font-weight: normal;
+}
+
 .container {
   display: grid;
   justify-content: center;
@@ -47,6 +53,13 @@ h1 {
   justify-content: center;
   gap: 40px;
   padding-top: 30px;
+}
+.container__button {
+  border: none;
+  background: none;
+  height: 0;
+  padding: 0;
+  color: hsl(0deg, 0%, 98%);
 }
 .container label {
   padding-top: 25px;

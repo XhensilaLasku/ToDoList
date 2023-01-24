@@ -28,6 +28,9 @@
   h1 {
     @include set-headline-style(h1);
   }
+  button {
+    @include set-headline-style(button);
+  }
 //   h2 {
 //     @include set-headline-style();
 //   }

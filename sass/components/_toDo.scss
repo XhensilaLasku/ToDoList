@@ -37,6 +37,13 @@
         gap: 40px;
         padding-top: 30px;
     }
+    &__button {
+        border: none;
+        background: none;
+        height: 0;
+        padding: 0;
+        color: $dark-mode-light-gray
+    }
     label{
         padding-top: 25px;
         padding-left: 10px;
