@@ -38,26 +38,15 @@ h1 {
 }
 .container__menu {
   width: 500px;
-  height: 60px;
+  height: 43px;
+  border-radius: 5px;
   color: hsl(0deg, 0%, 98%);
   background-color: hsl(237deg, 14%, 26%);
   display: flex;
-}
-.container__center {
-  margin: auto 30px;
-}
-.container__count {
+  margin: auto;
+  justify-content: center;
+  gap: 40px;
   padding-top: 30px;
-}
-@media (max-width: 600px) {
-  .container__todoField {
-    width: 325px;
-  }
-}
-@media (max-width: 600px) {
-  .container__todos {
-    width: 317px;
-  }
 }
 .container label {
   padding-top: 25px;
@@ -88,4 +77,15 @@ body {
 .dark-mode {
   background-color: hsl(0deg, 0%, 98%);
   color: hsl(235deg, 21%, 11%);
+}
+
+@media (max-width: 426px) {
+  .container__new-todo {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .container__new-todo {
+    width: 300px;
+  }
 }/*# sourceMappingURL=app.css.map */

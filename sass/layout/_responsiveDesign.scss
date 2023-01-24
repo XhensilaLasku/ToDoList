@@ -1,0 +1,14 @@
+@include breakpoint(smxs) {
+    .container{
+        &__new-todo{
+          width: 300px;
+        }
+    }
+}
+@include breakpoint(smx) {
+    .container{
+        &__new-todo{
+          width: 300px;
+        }
+    }
+}

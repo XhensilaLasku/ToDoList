@@ -27,27 +27,15 @@
     }
     &__menu{
         width: 500px;
-        height: 60px;
+        height: 43px;
+        border-radius: 5px;
         color: $dark-mode-light-gray;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         display: flex;
-       
-    }
-    &__center{
-        margin: auto 30px;
-    }
-    &__count{
+        margin: auto;
+        justify-content: center;
+        gap: 40px;
         padding-top: 30px;
-    }
-    @include breakpoint(smx) {
-        &__todoField{ 
-            width: 325px;
-        }  
-    }
-    @include breakpoint(smx) {
-        &__todos{ 
-            width: 317px;
-        }  
     }
     label{
         padding-top: 25px;
