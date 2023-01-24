@@ -26,7 +26,7 @@ h1 {
 }
 @media (max-width: 600px) {
   .container__todoField {
-    width: 400px;
+    width: 325px;
   }
 }
 .container__todos {
