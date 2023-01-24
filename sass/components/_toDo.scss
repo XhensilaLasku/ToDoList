@@ -31,11 +31,13 @@
         color: $dark-mode-light-gray;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         display: flex;
+       
     }
-    &__menuCenter{
-        display: flex;
-        margin: auto;
-        justify-content: center;
+    &__center{
+        margin: auto 30px;
+    }
+    &__count{
+        padding-top: 30px;
     }
     @include breakpoint(smx) {
         &__todoField{ 

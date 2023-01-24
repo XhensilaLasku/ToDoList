@@ -43,10 +43,11 @@ h1 {
   background-color: hsl(237deg, 14%, 26%);
   display: flex;
 }
-.container__menuCenter {
-  display: flex;
-  margin: auto;
-  justify-content: center;
+.container__center {
+  margin: auto 30px;
+}
+.container__count {
+  padding-top: 30px;
 }
 @media (max-width: 600px) {
   .container__todoField {
