@@ -24,24 +24,29 @@ h1 {
   border: none;
   border-radius: 5px;
 }
-.container__todoField.before {
-  content: "/ccccccccccccc";
-}
 .container__todos {
   width: 467px;
   background-color: hsl(237deg, 14%, 26%);
   border-radius: 5px;
-  padding: 0 0 0 10px;
 }
 .container__listtodo {
   height: 60px;
-  border-bottom: solid 1px;
-  border-color: hsl(236deg, 9%, 61%);
-  background-color: red;
 }
 .container__todolist {
   list-style: none;
   display: flex;
+}
+.container__menu {
+  width: 500px;
+  height: 60px;
+  color: hsl(0deg, 0%, 98%);
+  background-color: hsl(237deg, 14%, 26%);
+  display: flex;
+}
+.container__menuCenter {
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   .container__todoField {
