@@ -79,7 +79,7 @@ body {
   color: hsl(235deg, 21%, 11%);
 }
 
-@media (max-width: 426px) {
+@media (min-width: 360px) {
   .container__new-todo {
     width: 300px;
   }

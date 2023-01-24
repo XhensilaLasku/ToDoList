@@ -1,5 +1,5 @@
 $breakpoints: (
-  'xs'   : (max-width: 360px),
+  'xs'   : (min-width: 360px),
   'smxs' : (max-width: 426px),
   'smx'  : (max-width: 600px),
   'sm'   : (max-width: 767px),
