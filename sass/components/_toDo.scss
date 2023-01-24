@@ -55,11 +55,11 @@
     justify-content: center;
     margin:  auto;  
     &__h1{
-        padding-top: 50px;
+        padding-top: 90px;
     }
     &__todoField{
         width: 500px;
-        height:50px;
+        height: 60px;
         color: $dark-mode-light-gray;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         border: none;
@@ -69,11 +69,18 @@
         width: 467px;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         border-radius: 5px;
-        // display: block;
-        // justify-content: center;
-        // margin: 16px auto;
     }
     &__listtodo{
-        height: 50px;
+        height: 60px;
+        border-bottom: solid 1px;
+        border-color: $dark-mode-dark-gray-blue;
+    }
+    &__todolist{
+        list-style: none;
+        display: flex;
+    }
+    label{
+        padding-top: 25px;
+        padding-left: 10px;
     }
 }
