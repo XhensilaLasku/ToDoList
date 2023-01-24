@@ -20,7 +20,7 @@ todoForm.addEventListener("submit", (e) => {
 })
 
 function createItem(x) {
-  const html = `<input class="container__listtodo" id="listtodo" type="radio">${x}`
+  const html = `<li><input class="container__listtodo" id="listtodo" type="radio">${x}</li>`
   list.insertAdjacentHTML("beforeend", html)
   todoField.value = ""
   todoField.focus()

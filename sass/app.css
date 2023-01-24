@@ -9,8 +9,9 @@ h1 {
 }
 
 .container {
-  position: relative;
-  text-align: center;
+  display: grid;
+  justify-content: center;
+  margin: auto;
 }
 .container__h1 {
   padding-top: 50px;
@@ -27,9 +28,6 @@ h1 {
   width: 467px;
   background-color: hsl(237deg, 14%, 26%);
   border-radius: 5px;
-  display: block;
-  justify-content: center;
-  margin: 16px auto;
 }
 .container__listtodo {
   height: 50px;
