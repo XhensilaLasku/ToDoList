@@ -1,18 +1,8 @@
-// var form = document.getElementById("todoform");
 
-// function submitForm(event) {
-//     event.preventDefault();
-    
-//  }
-//  form.addEventListener('submit', submitForm);
-
-//  function getVal() {
-//     const val = document.querySelector('input').value;
-//     console.log(val);
-//   }
 const todoForm = document.getElementById("addForm")
 const todoField = document.getElementById("todoField")
 const list = document.getElementById("todos")
+const checkboxes = document.querySelectorAll('.container__todolist')
 
 todoForm.addEventListener("submit", (e) => {
   e.preventDefault()
@@ -20,7 +10,7 @@ todoForm.addEventListener("submit", (e) => {
 })
 
 function createItem(x) {
-  const html = `<li class="container__todolist"><input class="container__listtodo" id="listtodo" type="checkbox""><label for="listtodo">${x}</label></li>`
+  const html = `<li class="container__todolist"><input class="container__listtodo" onChange="addClass(event)" type="checkbox" name="list"><label for="listtodo">${x}</label></li>`
   list.insertAdjacentHTML("beforeend", html)
   todoField.value = ""
   todoField.focus()
@@ -30,4 +20,14 @@ function deleteItem(elementToDelete) {
   elementToDelete.parentElement.remove()
 }
 
-const elements = document.querySelectorAll('#listtodo');
+// FUNCTION
+const addClass = (event) => {
+  if (event.target.checked) {
+    event.target.classList.add("container__checked")
+  } else {
+    event.target.classList.remove("container__checked")
+  } 
+//  console.log(document.querySelectorAll('input[type="checkbox"]:checked').length);
+let html = (document.querySelectorAll('input[type="checkbox"]:not(:checked)').length + ' ' + 'items left');
+document.getElementById("container__count").innerHTML = html;
+}

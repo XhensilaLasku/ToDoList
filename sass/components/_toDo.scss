@@ -12,25 +12,30 @@
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         border: none;
         border-radius: 5px;
-        &.before{
-            content: '/ccccccccccccc';
-        }
     }
     &__todos{
         width: 467px;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         border-radius: 5px;
-        padding: 0 0 0 10px;
     }
     &__listtodo{
         height: 60px;
-        border-bottom: solid 1px;
-        border-color: $dark-mode-dark-gray-blue;
-        background-color: red;
     }
     &__todolist{
         list-style: none;
         display: flex;
+    }
+    &__menu{
+        width: 500px;
+        height: 60px;
+        color: $dark-mode-light-gray;
+        background-color: $light-mode-very-dark-gray-blue-gray-blue1;
+        display: flex;
+    }
+    &__menuCenter{
+        display: flex;
+        margin: auto;
+        justify-content: center;
     }
     @include breakpoint(smx) {
         &__todoField{ 
