@@ -24,10 +24,20 @@ h1 {
   border: none;
   border-radius: 5px;
 }
+@media (max-width: 600px) {
+  .container__todoField {
+    width: 400px;
+  }
+}
 .container__todos {
   width: 467px;
   background-color: hsl(237deg, 14%, 26%);
   border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .container__todos {
+    width: 364px;
+  }
 }
 .container__listtodo {
   height: 60px;

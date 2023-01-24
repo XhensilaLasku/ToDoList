@@ -65,10 +65,20 @@
         border: none;
         border-radius: 5px;
     }
+    @include breakpoint(smx) {
+        &__todoField{ 
+            width: 400px;
+        }  
+    }
     &__todos{
         width: 467px;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         border-radius: 5px;
+    }
+    @include breakpoint(smx) {
+        &__todos{ 
+            width: 364px;
+        }  
     }
     &__listtodo{
         height: 60px;
