@@ -3,49 +3,49 @@
     justify-content: center;
     margin:  auto;  
     &__h1{
-        padding-top: 90px;
+        padding-top: $size-90;
     }
     &__todoField{
-        width: 500px;
-        height: 60px;
+        width: $size-500;
+        height: $size-60;
         color: $dark-mode-light-gray;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         border: none;
-        border-radius: 5px;
+        border-radius: $size-5;
     }
     &__todos{
-        width: 467px;
+        width: $size-467;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
-        border-radius: 5px;
+        border-radius: $size-5;
     }
     &__listtodo{
-        height: 60px;
+        height: $size-60;
     }
     &__todolist{
         list-style: none;
         display: flex;
     }
     &__menu{
-        width: 505px;
-        height: 43px;
-        border-radius: 5px;
+        width: $size-505;
+        height: $size-43;
+        border-radius: $size-5;
         color: $dark-mode-light-gray;
         background-color: $light-mode-very-dark-gray-blue-gray-blue1;
         display: flex;
         margin: auto;
         justify-content: center;
-        gap: 40px;
-        padding-top: 30px;
+        gap: $size-40;
+        padding-top: $size-30;
     }
     &__button {
         border: none;
         background: none;
-        height: 0;
-        padding: 0;
+        height: $size-0;
+        padding: $size-0;
         color: $dark-mode-light-gray
     }
     label{
-        padding-top: 25px;
-        padding-left: 10px;
+        padding-top: $size-25;
+        padding-left: $size-10;
     }
 }

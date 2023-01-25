@@ -1,28 +1,28 @@
 @include breakpoint(xs) {
     .container{
         &__todoField{
-          width: 300px;
+          width: $size-300;
         }
         &__todos{
-            width: 264px;
+            width: $size-264;
         }
         &__menu{
-            width: 300px;
-            font-size: 12px;
+            width: $size-300;
+            font-size: $size-12;
         }
     }
 }
 @include breakpoint(smx) {
     .container{
         &__todoField{
-          width: 360px;
+          width: $size-360;
         }
         &__todos{
-            width: 323px;
+            width: $size-323;
         }
         &__menu{
-            width: 363px;
-            font-size: 12px;
+            width: $size-363;
+            font-size: $size-12;
         }
     }
 }
